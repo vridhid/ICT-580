@@ -1,0 +1,80 @@
+header{                                             /* HEADER STYLE START*/
+    background-color: #FFDF6B;                      /* HEADER: BCKG COLOR #FFDF6B FROM D2L */
+    font-size: 12px;                                /* HEADER: FONT SIZE 12PX FROM D2L */
+    font-style: bold;                               /* HEADER: FONT BOLD FROM D2L */
+    padding-left: 20px;                             /* HEADER: PADDING TO THE LEFT */
+    padding-top: 15px;                              /* HEADER: PADDING ON TOP OF DOC */
+    overflow: hidden;                               /* HEADER: IF CONTENT OVERFLOWS, HIDE IT */
+    }                                               /* HEADER STYLE END*/
+
+#urls{                                              /* #URL STYLE START */
+    border-top: 3px solid black;                    /* #URL: BORDER ON TOP OF LINKS */
+    border-bottom: 3px solid black;                 /* #URL: BORDER BELOW LINKS */
+    }                                               /* #URL STYLE END */
+
+section{                                            /* SECTION STYLE START */
+    background-color: #ffcc11;                      /* SECTION: BCKG COLOR #ffcc11 FROM D2L */
+    padding-left: 20px;                             /* SECTION: PADDING TO THE LEFT */
+    overflow: hidden;                               /* SECTION: IF CONTENT OVERFLOWS, HIDE IT */
+    }                                               /* SECTION STYLE END */
+
+html{                                               /* HTML STYLE START */                                        
+    width: 580px;                                   /* HTML: WIDTH SET TO 580PX FROM D2L */
+    }                                               /* HTML STYLE END */
+
+#plateimg{                                          /* PLATEIMG STYLE START */
+    display: inline-block;                          /* PLATEIMG: DISPLAY SET TO INLNE SO THE BODY CAN SIT BESIDE IT */
+    float:right;                                    /* PLATEIMG: FLOAT TO RIGHT TO LOOK LIKE ASSIGNMENT PIC */
+    }                                               /* PLATEIMG STYLE END */
+
+title{                                              /* TITLE STYLE START */
+    display:block;                                  /* TITLE: DISPLAY SET TO BLOCK SO IT CAN STAY LOCKED IN ITS PLACE W/O DISRUPTING THE IMAGE*/
+    }                                               /* TITLE STYLE END */
+
+#save50{                                            /* SAVE50 STYLE START */
+    font-size: 60px;                                /* SAVE50: FRONT SIZE CHANGED FROM 70 --> 60 TO MIMIC D2L SHEET */
+    width: 50%;                                     /* SAVE50: WIDTH VALUES FROM D2L */
+    border: 3px dashed black;                       /* SAVE50: BORDER VALUES FROM D2L */
+    padding-left: 18px;                             /* SAVE50: PADDING TO THE LEFT */
+    background: linear-gradient(to right, #ffcc11 50%, white 50%); /* SAVE50: YELLOW TO WHITE 50:50 */
+    }                                               /* SAVE50 STYLE END */
+
+
+#save75{                                            /* SAVE75 STYLE START */
+    font-size: 60px;                                /* SAVE75: FONT SIZE VALUE FROM D2L  */
+    width: 50%;                                     /* SAVE75: FONT WIDTH FROM D2L */
+    border: 3px dashed black;                       /* SAVE75: BORDER VALUE FROM D2L  */
+    padding-left: 9px;                              /* SAVE75:  PADDING TO LEFT TO ADJUST VALUES TO LOOK LIKE D2L SHEET */
+     background: linear-gradient(to right, #ffcc11 75%, white 25%); /* SAVE75: YELLOW TO WHITE 75:25 */
+    }                                               /* SAVE75 STYLE END */
+
+
+#valid50, #valid75{                                 /* VALID50 & VALID75 STYLE START */
+    font-size: 10px;                                /* VALID50 & VALID75: FONT SIZE FROM D2L */
+    width: 75%;                                     /* VALID50 & VALID75: WIDTH ADJUSTED TO D2L SHEET OOUTCOME */
+    }                                               /* VALID50 & VALID7 STYLE END */
+
+#valid50{                                           /* VALID50 STYLE START */
+    position: absolute;                             /* VALID50: POSITION IS ABS SO IT HIDES THE REST OF THE YELLOW BOX */
+    top:530px;                                      /* VALID50: Y COORD */
+    left: 225px;                                    /* VALID50: X COORD */
+    }                                               /* VALID50 STYLE END */
+    
+#valid75{                                           /* VALID75 STYLE START */
+    position: absolute;                             /* VALID75: POSITION IS ABS SO IT HIDES THE REST OF THE YELLOW BOX */
+    top:633px;                                      /* VALID50: Y COORD */
+    left:290px;                                     /* VALID50: X COORD */                                 
+    }                                               /* VALID75 STYLE END */
+
+footer{                                             /* FOOTER STYLE START */
+    margin-top: 12px;                               /* FOOTER: MARGIN FROM TOP */
+    }                                               /* FOOTER STYLE END */
+
+*{                                                  /* ALL STYLE START */
+    font-family: 'Shadows Into Light', cursive;     /* ALL: FONT SPECIFIED BY D2L APPLIED TO ALL TEXT */
+    color: #333;                                    /* ALL: COLOR IS BLACK FROM D2L VALUE */
+    font-weight: bold;                              /* ALL: FONT IS BOLD BECAUSE D2L LOOKS BOLD */
+    vertical-align: middle;                         /* ALL: ALL IS ALLIIGNED VERTICALLY SO IT LOOKS UNIFROM */
+    }                                               /* ALL STYLE END */
+
+

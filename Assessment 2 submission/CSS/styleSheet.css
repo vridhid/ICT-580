@@ -1,0 +1,192 @@
+html{                                               /* HTML STYLE START */                                        
+    width: 600px;                                   /* HTML: WIDTH SET TO 600PX FROM D2L */
+    margin: 30px 40px 30px 40px;                    /* HTML: MARGIN AROUND THE ENTIRE PAGE */
+    background-color: #FFDF6B;                      /* HTML: BCKG COLOR #FFDF6B FROM D2L */
+    border-style: hidden;                           /* HTML: ALL BORDERS HIDDEN */
+}                                                   /* HTML: STYLE END */
+
+#button_submit{                                     /* BUTTON_SUBMIT: STYLE START */
+    width: 600px;                                   /* BUTTON_SUBMIT: WIDTH SET TO 600PX FROM D2L */
+    height: 45px;                                   /* BUTTON_SUBMIT: HEIGHT SET TO 45 BASED ON ROUGH ESTIMATE FROM D2L */
+    background-color: #2196f3;                      /* BUTTON_SUBMIT: BCKG COLOR #2196f3 FROM D2L */
+    color: #fff;                                    /* BUTTON_SUBMIT: COLOR OF TEXT SET TO #fff FROM D2L */
+    font-size: 20px;                                /* BUTTON_SUBMIT: SIZE SET TO 20PX BASED ON ROUGH ESTIMATE FROM D2L */
+    position: absolute;                             /* BUTTON_SUBMIT: POSITION SET TO ABSOLUTE FOR CLOSEST REPLICATION OF D2L */
+    left: 40px;                                     /* BUTTON_SUBMIT: ABSOLUTE POSTION 40 PX FROM LEFT */
+    top: 840px;                                     /* BUTTON_SUBMIT: ABSOLUTE POSTION 840 PX FROM TOP */
+}                                                   /* BUTTON_SUBMIT: STYLE END */
+
+#button_submit:hover{                               /* BUTTON_SUBMIT (HOVER): STYLE START */
+  background-color: #4CAF50;                        /* BUTTON_SUBMIT (HOVER): BCKG COLOR SET TO #4CAF50 FROM D2L */
+}                                                   /* BUTTON_SUBMIT (HOVER): STYLE END */
+
+.div-header{                                        /* DIV-HEADER: STYLE START */                  
+    width: 600px;                                   /* DIV-HEADER: WIDTH SET TO 600PX FROM D2L */
+    display: div-header;                            /* DIV-HEADER: DISPLAY DIV-HEADER */
+    background: #FFDF6B;                            /* DIV-HEADER: BCKG COLOR #FFDF6B FROM D2L */
+}                                                   /* DIV-HEADER: STYLE END */
+
+.header-row{                                        /* HEADER-ROW: STYLE START */ 
+    display: header-row;                            /* HEADER-ROW: DISPLAY HEADER-ROW */
+    font-size: 17px;                                /* HEADER-ROW: SIZE SET TO 17PX BASED ON ROUGH ESTIMATE FROM D2L */
+    color: black;                                   /* HEADER-ROW: COLOR SET TO BLACK FROM D2L */
+    font-weight: bold;                              /* HEADER-ROW: WEIGHT SET TO BOLD FROM D2L */
+    padding: 8px;                                   /* HEADER-ROW: PADDING SET TO 8PX BASED ON ROUGH ESTIMATE FROM D2L */
+}                                                   /* HEADER-ROW: STYLE END */
+
+.header-col{                                        /* HEADER-COL: STYLE START */ 
+    display: header-col;                            /* HEADER-COL: DISPLAY HEADER-COL */
+}                                                   /* HEADER-COL: STYLE END */
+
+#about-visit, #about-you, #send-image{              /* SUBHEADINGS: STYLE START */
+    display: about-visit;                           /* SUBHEADINGS: DISPLAY ABOUT-VISIT */
+    display: about-you;                             /* SUBHEADINGS: DISPLAY ABOUT-YOU */
+    display: about-image;                           /* SUBHEADINGS: DISPLAY ABOUT-IMAGE */
+    margin: 15px 75px 15px 15px;                    /* SUBHEADINGS: MARGIN BASED ON PAGE DIMENSIONS */
+    font-size: 17px;                                /* SUBHEADINGS: FONT SIZE SET TO 17PX BASED ON ROUGH ESTIMATE FORM D2L */
+    background: #FFDF6B;                            /* SUBHEADINGS: BCKG COLOR SET TO #FFDF6B FROM D2L */
+    padding: 5px;                                   /* SUBHEADINGS: PADDING SET TO 5PX BASED ON ROUGH ESTIMATE FROM D2L */
+    font-style: italic;                             /* SUBHEADINGS: STYLE SET TO ITALIC DUE TO REQUIREMENT */
+    font-weight: bold;                              /* SUBHEADINGS: WEIGHT SET TO BOLD TO MATCH REQUIREMENT */
+}                                                   /* SUBHEADINGS: STYLE END */
+
+.div-spend{                                         /* DIV-SPEND: STYLE START */ 
+    display: div-spend;                             /* DIV-SPEND: DISPLAY DIV SPEND */
+    padding-left: 10px;                             /* DIV-SPEND: PADDING SET TO 10PX TO LEFT */
+    margin: 15px 75px 15px 15px;                    /* DIV-SPEND: MARGIN SET BASED ON ROUGH ESTIMATE FROM D2L */
+    font-size: 15px;                                /* DIV-SPEND: SIZE SET TO 10PX BASED ON ROUGH ESTIMATE FROM D2L */
+}                                                   /* DIV-SPEND: STYLE END */
+
+.spend-row{                                         /* SPEND-ROW: STYLE START */
+    display: spend-row;                             /* SPEND-ROW: DISPLAY SPEND-ROW */
+}                                                   /* SPEND-ROW: STYLE END */
+    
+.spend-col{                                         /* SPEND-COL: STYLE START */
+    display: spend-col;                             /* SPEND-COL: DISPLAY SPEND-COL */
+}                                                   /* SPEND-COL: STYLE END */
+    
+.body-30{                                           /* BODY-30: STYLE START */
+    display: body-30;                               /* BODY-30: DISPLAY BODY-30 */
+    font-size: 10px;                                /* BODY-30: SIZE SET TO 10PX TO FIT DIMENSIONS OF BOX */
+    width: 120px;                                   /* BODY-30: WIDTH BASED ON PDF IN D2L */
+    position: absolute;                             /* BODY-30: POSITION IS ABSOLUTE TO MATCH D2L IMAGE */
+    top: 175px;                                     /* BODY-30: 175PX FROM TOP */
+    left: 445px;                                    /* BODY-30: 445PX FROM LEFT */
+    background-color: #ffffcc;                      /* BODY-30: BCKG COLOR SET TO #ffffcc FROM D2L */
+    border-top: solid;                              /* BODY-30: TOP BORDER IS SET TO SOLID */
+    border-color: #FFDF6B;                          /* BODY-30: BORDER COLOR SET TO #FFDF6B FROM D2L */
+    padding: 2px;                                   /* BODY-30: PADDING IS SET TO 2PX SO THE BOX LOOKS NICE */
+}                                                   /* BODY-30: STYLE END */
+
+
+.30-row{                                            /* 30-ROW: STYLE START */
+    display: 30-row;                                /* 30-ROW: DISPLAY 30-ROW */
+}                                                   /* 30-ROW: STYLE END */
+
+.30-col{                                            /* 30-COL: STYLE START */
+    display: 30-col;                                /* 30-COL: DISPLAY 30-COL */
+}                                                   /* 30-COL: STYLE END */
+
+.body-order{                                        /* BODY-ORDER: STYLE START */
+    display: body-order;                            /* BODY-ORDER: DISPLAY BODY-ORDER */
+    padding-left: 30px;                             /* BODY-ORDER: PADDING TO LEFT BY 30PX MATCHING TO D2L */
+    margin: 15px 75px 15px 15px;                    /* BODY-ORDER: MARGIN BASED ON ROUGH ESTIMATE */
+    font-size: 15px;                                /* BODY-ORDER: FONT SIZE SET TO 15PX */
+    box-sizing: border-box;                         /* BODY-ORDER: BOX SIZING IS SET TO BORDER-BOX */
+    width: 325px;                                   /* BODY-ORDER: WIDTH SET TO 325PX TO NOT LET IT INTERFERE WITH 30% OFF */
+    height: 50px;                                   /* BODY-ORDER: WIDTH SET TO 50PX TO NOT LET IT INTERFERE WITH 30% OFF */
+    border: 1px solid black;                        /* BODY-ORDER: BORDER IS 1PX WIDE SOLID BLACK */
+}                                                   /* BODY-ORDER: STYLE END */
+
+.order-row{                                         /* ORDER-ROW: STYLE START */
+    display: order-row;                             /* ORDER-ROW: DISPLAY ORDER-ROW */
+}                                                   /* ORDER-ROW: STYLE END */
+
+.order-col{                                         /* ORDER-COL: STYLE START */
+    display: order-col;                             /* ORDER-COL: DISPLAY ORDER-COL */
+}                                                   /* ORDER-COL: STYLE END */
+
+.body-exp{                                          /* BODY-EXP: STYLE START */
+    display: body-exp;                              /* BODY-EXP: DISPLAY BODY-EXP */
+    padding-left: 30px;                             /* BODY-EXP: PADDING TO LEFT BY 30PX MATCHING TO D2L */
+    margin: 15px 75px 15px 15px;                    /* BODY-EXP: MARGIN BASED ON ROUGH ESTIMATE */
+    font-size: 15px;                                /* BODY-EXP: FONT SIZE SET TO 15PX */
+    box-sizing: border-box;                         /* BODY-EXP: BOX SIZING IS SET TO BORDER-BOX */
+    width: 325px;                                   /* BODY-EXP: WIDTH SET TO 325PX TO NOT LET IT INTERFERE WITH 30% OFF */
+    height: 50px;                                   /* BODY-EXP: WIDTH SET TO 50PX TO NOT LET IT INTERFERE WITH 30% OFF */
+    border: 1px solid black;                        /* BODY-EXP: BORDER IS 1PX WIDE SOLID BLACK */
+}                                                   /* BODY-EXP: STYLE END */
+
+.exp-row{                                           /* EXP-ROW: STYLE START */
+    display: exp-row;                               /* EXP-ROW: DISPLAY EXP-ROW */
+}                                                   /* EXP-ROW: STYLE END */
+
+.exp-col{                                           /* EXP-COL: STYLE START */
+    display: exp-col;                               /* EXP-COL: DISPLAY EXP-COL */
+}                                                   /* EXP-COL: STYLE END */
+
+.body-about{                                        /* BODY-ABOUT: STYLE START */
+    display: body-about;                            /* BODY-ABOUT: DISPLAY BODY-ABOUT */
+    margin: 15px 75px 15px 15px;                    /* BODY-ABOUT: MARGIN BASED ON ROUGH ESTIMATE */
+    font-size: 15px;                                /* BODY-ABOUT: FONT SIZE SET TO 15PX */
+}                                                   /* BODY-ABOUT: STYLE END */
+
+.about-row{                                         /* ABOUT-ROW: STYLE START */
+    display: about-row;                             /* ABOUT-ROW: DISPLAY ABOUT-ROW */
+    padding-top: 10px;                              /* ABOUT-ROW: PADDING FROM TOP BY 10PX TO MATCH D2L */
+}                                                   /* ABOUT-ROW: STYLE END */
+
+.about-col{                                         /* ABOUT-COL: STYLE START */
+    display: about-col;                             /* ABOUT-COL: DISPLAY ABOUT-COL */
+}                                                   /* ABOUT-COL: STYLE END */
+
+.body-img{                                          /* BODY-IMG: STYLE START */
+    display: body-img;                              /* BODY-IMG: DISPLAY BODY-IMG */
+    margin: 15px 75px 15px 15px;                    /* BODY-IMG: MARGIN BASED ON ROUGH ESTIMATE */
+    font-size: 15px;                                /* BODY-IMG: FONT SIZE SET TO 15PX */
+}                                                   /* BODY-IMG: STYLE END */
+
+.img-row{                                           /* IMG-ROW: STYLE START */
+    display: img-row;                               /* IMG-ROW: DISPLAY IMG-ROW */
+}                                                   /* IMG-ROW: STYLE END */
+
+.img-col{                                           /* IMG-COL: STYLE START */
+    display: img-col;                               /* IMG-COL: DISPLAY IMG-COL */
+}                                                   /* IMG-COL: STYLE END */
+
+.body-submit{                                       /* BODY-SUBMIT: STYLE START */
+    display: body-submit;                           /* BODY-SUBMIT: FLOAT TO TOP */
+    float: top;                                     /* BODY-SUBMIT: DISPLAY BODY-SUBMIT */
+    font-size: 15px;                                /* BODY-SUBMIT: FONT SIZE SET TO 15PX */
+}                                                   /* BODY-SUBMIT: STYLE END */
+
+.submit-row{                                        /* SUBMIT-ROW: STYLE START */
+    display: submit-row;                            /* SUBMIT-ROW: DISPLAY SUBMIT-ROW */
+}                                                   /* SUBMIT-ROW: STYLE END */
+
+.submit-col{                                        /* SUBMIT-COL: STYLE START */
+    display: submit-col;                            /* SUBMIT-COL: DISPLAY SUBMIT-COL */
+}                                                   /* SUBMIT-COL: STYLE END */
+
+label{                                              /* LABEL: STYLE START */
+    float: left;                                    /* LABEL: FLOAT TO LEFT TO MAINTAIN ALIGNMENT */
+    width: 10em;                                    /* LABEL: WIDTH OF LABEL IS 10EM */
+    text-align: left;                               /* LABEL: TEXT ALIGHN TO LEFT */
+    padding-top: 10px;                              /* LABEL: PADDING ABOVE EACH LABEL IS 10PX */
+}                                                   /* LABEL: STYLE END */
+
+input{                                              /* INPUT: STYLE START */
+    padding-top: 10px;                              /* INPUT: PADDING IN BETWEEN EACH FIELD IS 10PX TO MATCH UP WITH LABELS */
+}                                                   /* INPUT: STYLE END */
+
+input:focus, textarea:focus{                        /* INPUT & TEXTAREA: STYLE START */
+	border-width: 1px;                              /* INPUT & TEXTAREA: BORDER WIDTH SET TO 1PX FROM D2L */
+	border-style: solid;                            /* INPUT & TEXTAREA: BORDER STYLE SET TO SOLID FROM D2L */
+	border-color: #0C0;                             /* INPUT & TEXTAREA: BORDER COLOR SET TO #0C0 FROM D2L */
+}                                                   /* INPUT & TEXTAREA: STYLE END */
+
+textarea{                                           /* TEXTAREA: STYLE START */
+    height: 7em;                                    /* TEXTAREA: HEIGHT SET TO 7EM */
+    width: 20em;                                    /* TEXTAREA: WIDTH SET TO 20EM  */
+}                                                   /* TEXTAREA: STYLE END */
+

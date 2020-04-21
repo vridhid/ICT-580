@@ -1,0 +1,148 @@
+<!-- 
+NAME: VRIDHI DUBEY -->
+<!DOCTYPE html>
+<html>
+    
+<head>                                                                                         <!-- START OF HEAD -->
+    <title> Joan's Feedback </title>                                                           <!--  Title in tab set to: Joan's Feedback -->
+    <link rel="styleSheet" href="CSS/styleSheet.css">
+     <link rel="styleSheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">           <!-- Bootstrap for UI interface elements such as buttons and forms -->
+</head>                                                                                         <!-- END OF HEAD -->
+    
+<body>                                                                                          <!-- START OF BODY -->
+  
+    <form action="/action_page.php">                                                            <!-- Action attribute specifies where to send the form-data  -->
+                                                                                                <!-- START OF TABLES -->
+        <div class ="div-header">                                                               <!-- START OF HEADER -->
+            <div class = "header-row">                                                          <!-- HEADER ROW -->
+                <div class = "header-col" align="center"> <img src = "Images/logo.png"> </div>  <!-- INSERT IMAGE IN HEADER-->
+            </div>
+            <div class="header-col"><!-- HEADER COLUMN -->
+                <div class="header-row" align="center">
+                    Thank you for taking the time to fill our feedback </div>                   <!-- INSERT TEXT IN HEADER -->
+            </div>
+        </div>
+        
+        <div id = "about-visit"> About your visit </div>                                        <!-- SUBHEADING 1 -->
+        
+        <div class = "div-spend">                                                               <!-- START OF SPENDING -->
+            <div class = "spend-row">                                                           <!-- SPENDING ROW -->
+                <div class = "spend-col"> <strong> How much did you spend? </strong> 
+                    &nbsp;&nbsp;&nbsp;                                                          <!-- SPENDING TEXT -->
+                <select name="how_much_did_you_spend">                                          <!-- SPENDING DROPDOWN MENU START -->
+                <optgroup label="Amount spent">                                                 <!-- SPENDING LABEL -->
+                <option value="10-20"> 10-20 </option>                                          <!-- OPTION 1: 10-20 -->
+                <option value="20-30"> 20-30 </option>                                          <!-- OPTION 2: 20-30 -->
+                <option value="30-40"> 30-40 </option>                                          <!-- OPTION 3: 30-40 -->
+                </optgroup>
+                </select> 
+                </div>
+             </div> 
+        </div>
+             
+        <div class = "body-order"><!-- START OF ORDER -->
+                <div class = "order-row"><!-- ORDER ROW -->
+                    <div class = "order-col"> <strong> What was your order? </strong><br></div> <!-- ORDER TEXT -->                
+                <div class = "order-col"><!-- ORDER COLUMN -->
+                    <div class = "order-row"> <input type="checkbox" name="order1" 
+                    value="Taco" checked > Taco &nbsp;                                          <!-- CHECKBOX 1: TACO -->
+                    <input type="checkbox" name="order2" value="Burritos"> Burritos &nbsp;      <!-- CHECKBOX 2: BURRITOS -->
+                    <input type="checkbox" name="order3" value="Quesadilla"> Quesadilla         <!-- CHECKBOX 3: QUESADILLA --> 
+                    </div>
+                </div> 
+                </div>
+        </div>
+        
+        <div class = "body-30">                                                                 <!-- START OF 30% OFF SECTION --> 
+            <div class = "30-row">                                                              <!-- 30% OFF ROW -->
+                <div class = "30-col">                                                          <!-- 30% OFF COLUMN -->
+                    <p style="font-size:12px;">                                                 <!-- SETTING FONT SIZE OF HEADING -->
+                    <strong> How to get 30% off: </strong>                                      <!-- TEXT FOR 30% OFF --> 
+                    </p>
+                </div>
+            </div>
+            <div class = "30-col">                                                              <!-- 30% OFF COLUMN -->
+                <div class = "30-row">                                                          <!-- 30% OFF ROW -->
+                There are many variations of passages of Lorem Ipsum available, but 
+                the majority have suffered alteration in some form, by injected humour, 
+                or randomised words which don't look even slightly beleivable.                  <!-- 30% OFF BODY -->
+                </div>
+            </div>        
+        </div>
+        
+                       
+        <div class = "body-exp">                                                                <!-- START OF EXPERIENCE --> 
+                <div class = "exp-row">                                                         <!-- EXPERIENCE ROW-->
+                    <div class = "exp-col"> <strong> How was your experience? </strong> </div>  <!-- EXPERIENCE TEXT -->
+                </div>
+                <div class = "exp-col">                                                         <!-- EXPERIENCE COLUMN --> 
+                    <div class = "exp-row">                                                     <!-- EXPERIENCE ROW --> 
+                        <input type="radio" name="experience" value="NotBad">  Not Bad &nbsp;   <!-- RADIO BOX FOR OPTION 1: NOT BAD -->
+                        <input type="radio" name="experience" value="good" checked> Good &nbsp; <!-- RADIO BOX FOR OPTION 2: GOOD -->
+                        <input type="radio" name="experience" value="GreatWork"> Great Work     <!-- RADIO BOX FOR OPTION 3: GREAT WORK -->
+                    </div>
+                </div>
+        </div>
+                
+        <div id = "about-you"> About you </div>                                                 <!-- SUBHEADING 2 -->
+        
+        <div class = "body-about">                                                              <!-- START OF USER ABOUT -->
+                <div class = "about-row">                                                       <!-- NAME IN ABOUT ROW -->
+                    <div class = "about-col"> <label for="name"><u> F</u>irst, last name
+                        <span style="color:red">*</span> </label> </div>                        <!-- LABEL FOR NAME -->
+                    <div class = "about-col"> <input type="text" name="name" id="name" size = "30" accesskey="F" 
+                    required autofocus > </div>                                                 <!-- INPUT FIELD FOR NAME -->
+                </div>
+                <div class = "about-row">                                                       <!-- EMAIL IN ABOUT ROW -->
+                    <div class = "about-col"> <label for="Email"> <u>E</u>mail<span style="color:red">*
+                        </span>  </label> </div>                                                <!-- LABEL FOR EMAIL -->
+                    <div class = "about-col"> <input type="text" name="Email" id="Email" size = "30" accesskey="E" 
+                    required >  </div>                                                          <!-- INPUT FIELD FOR EMAIL -->
+                </div>
+                <div class = "about-row">                                                       <!-- TELEPHONE IN ABOUT ROW -->
+                    <div class = "about-col"> <label for="Telephone">
+                        <u>T</u>elephone </label> </div>                                        <!-- LABEL FOR TELEPHONE -->
+                    <div class = "about-col" > <input type="tel" name="Telephone" 
+                    id="Telephone" accesskey="T" size = "3" maxlength="3"  pattern = "[0-9]{3}"> 
+                    - <input  type="tel" name="Telephone" size = "3" maxlength="3" 
+                    pattern = "[0-9]{3}"> - <input  type="tel" name="Telephone" size = "4"
+                    maxlength="4" pattern = "[0-9]{4}"> </div>                                  <!-- INPUT FIELD FOR TELEPHONE -->
+                </div>
+            
+                <div class = "about-row">                                                       <!-- ZIPCODE IN ABOUT ROW -->
+                    <div class = "about-col"> <label for="Zipcode"> <u> Z</u>ipcode
+                        </label> </div>                                                         <!-- LABEL FOR ZIPCODE -->
+                    <div class = "about-col"> <input type="text" name="Zipcode" id="Zipcode" size = "30" 
+                    accesskey="Z"> </div>                                                       <!-- INPUT FIELD FOR ZIPCODE -->
+                </div>
+                <div class = "about-row">                                                       <!-- MESSAGE IN ABOUT ROW -->
+                    <div class = "about-col"> <label for="Message"><u> M</u>essage<span style="color:red">*
+                    </span> </label> </div>                                                     <!-- LABEL FOR MESSAGE -->
+                    <div class = "about-col"> <textarea name="Message" 
+                    accesskey="M" required> </textarea> </div>                                  <!-- TEXT FIELD FOR MESSAGE -->
+                </div>
+        </div>
+                
+        <div id = "send-image"> Send us an image of your visit! </div>                          <!-- SUBHEADING 3 -->
+        
+        <div class ="body-img">                                                                 <!-- START OF IMAGE -->
+            <div class = "img-row">                                                             <!-- IMAGE ROW -->
+                <div class = "img-col"> <label for= "Images"> <u> A</u>ttach only images: </label> 
+                </div>                                                                          <!-- LABEL FOR ATTACHING IMAGES -->
+                <div class="img-col" ><input type="file" name="fileupload" accept="image/png" 
+                accesskey="A">  <br> <br> <br> </div>                                           <!-- INPUT FOR ACCEPTING UPLOAD OF IMAGES, LIMITING TO PNG FORMAT -->
+            </div>
+        </div>
+        
+        <div class = "body-submit">                                                             <!-- START OF SUBMIT BUTTON -->
+            <div class = "submit-row">                                                          <!-- SUBMIT ROW -->
+                <div class="submit-col"><input type="submit" name="Submit" id="button_submit" 
+                value="Submit"> </div>                                                          <!-- SUBMIT BUTTON SET UP -->
+            </div>
+        </div>
+
+      </form>
+        
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!-- ICT 580 - Assignment 3
+-- Resposive simple blog template
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Essence of Vision </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">            <!-- adapt to the width of device --> 
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>                   <!-- link to style sheet --> 
+    <link type="text/css" rel="stylesheet" href="css/print.css" media="print" />    <!-- link to print sheet --> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">             <!-- font-family -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">      <!-- font-family -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+<body>
+<!-- Page main container/box/wrapper -->
+   <div id="page_wrapper">
+      <header><!-- Start header -->
+         <h1 id="logo">Logo title goes here</h1>
+         <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#article_1"> About Us </a></li>
+                <li><a href="#article_2"> The Creations </a></li> 
+                <li><a href="#article_3"> Gallery </a></li>
+                <li><a href="#article_4"> Make your own! </a></li>
+
+                <li><a href="#social"> Contact Us </a></li>
+
+            </ul>
+         </nav>
+      </header><!-- End header -->
+
+      <div id="#about_us"><!-- Start content -->
+          <div id = "home"> 
+              <h1> ESSENCE OF VISION </h1>
+              <h3> PhotoManipulations and Designs </h3>
+              <h4> We create dreams </h4>              
+          </div>
+  				
+				<!-- articles wrapper -->
+         <section id="wrapp_article">
+					 <!-- Article with top image, header, para, and hiding para -->
+            <article id="article_1">
+                           
+            <h1><a href="#"> About Us </a></h1>
+               <p> Welcome to the Essence of Vision where illusions are brought to life through the magic of PhotoShop. A hobby and a career, there's so much to do with these skills. The possibilites are endless. </p>
+                
+                <img src="imgs/acrylic-art-brush.jpg" alt="bckg-art1" >
+                <img src="imgs/gustavo-centurion.jpg" alt="bckg-art1" >
+                
+                <br> <br> <br> <br>
+            </article><!-- end of article -->
+					 
+             <!-- Article with top image, header, para, and hiding para -->
+            <article id="article_2">
+             <!--   <a href="#"><img src="imgs/recent2.jpg" alt="#" /></a> -->
+               <h1><a href="#"> The Creations </a></h1>
+                
+                <span class="label January">January 
+                <img src="imgs/this_too_shall_pass.jpg" alt="lable1" style="width:100%" > 
+                Seasons shall pass, colors will change, the world around will continue to shift. If you stand there still it might feel a little strange, though you may not be willing to admit." The chaos which filled my body with cold, forced me to hold myself and look inside. Just to find a touch of gold, which I had believed had died.
+                </span> 
+
+                <span class="label February">February 
+                <img src="imgs/escape_from_past.jpg" alt="lable2" style="width:100%" >
+                The Escape: <br> 
+                <q>All the best stories are but one story in reality - the story of escape. It is the only thing which interests us all and at all times, how to escape.</q> <br>
+                - Arthur Christopher Benson
+                </span>
+
+                <span class="label March">March 
+                <img src="imgs/fanstasy_room.jpg" alt="lable3" style="width:100%" >
+                <q>Have I gone mad? I'm afraid so. You're entirely Bonkers. 
+                But I will tell you a secret, All the best people are.</q> <br>
+                </span>
+
+                <span class="label April">April 
+                <img src="imgs/into_the_woods.jpg" alt="lable4" style="width:100%" >
+                    <q>Imagination is the only weapon in the war against reality.</q> <br>
+                    - The Cheshire Cat
+                </span>
+
+                <span class="label May">May
+                <img src="imgs/awaited_dream.jpg" alt="lable5" style="width:100%" > 
+                Awaited Dream: <br> 
+                <q>Be thankful for what you have. Your life, no matter how bad you think it is, is someone else's fairy tale.</q> <br>
+                - Wale Ayeni 
+                </span>
+
+                <span class="label June">June 
+                <img src="imgs/escape_fantasy.jpg" alt="lable6" style="width:100%" >
+                <q>There is a place, like no place on earth. A land full of wonder, mystery and danger! Which, luckily, I am.</q> <br>
+                ― Alice in wonderland    
+                </span>
+
+                <span class="label July">July                
+                <img src="imgs/the_song_of_life.jpg" alt="lable7" style="width:100%" > 
+                <q>Because even when you feel alone, <br>
+                    someone out there sings for you.</q>
+                </span>
+
+          
+  
+                         </article><!-- end of article -->
+					 
+					 <!-- Article with top image, header, para, and hiding para -->
+            <article id="article_3">
+               <h1><a href="#"> Gallery </a></h1>
+               <p> A collection of dreams. </p>
+                
+                <div id = "high-level">
+                    <div class="slideshow-container">
+                        
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides" src="imgs/Female%20Duality.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/Fantasy%20Night.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/Way%20to%20knowledge.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/Fantasy%20boat.jpg" style="width:100%">
+                            
+                            <img class="mySlides" src="imgs/lonely_boy.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/Flower_girl.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/girl_autumn.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/Wine.jpg" style="width:100%">
+                            <img class="mySlides" src="imgs/cat_fish.jpg" style="width:100%">
+                            
+                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                        </div>        
+                    </div>
+                    
+                    <script> 
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
+                        function showDivs(n){
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {slideIndex = 1}
+                            if (n < 1) {slideIndex = x.length}
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            
+                            x[slideIndex-1].style.display = "block";
+                        }
+                        
+                    </script>
+                </div>
+                
+                <div id = "low-level">
+                <div class="row"> 
+                    <div class="column">
+                        <img src="imgs/Female%20Duality.jpg" alt="column-1" style="width:100%">
+                        <img src="imgs/Way%20to%20knowledge.jpg" alt="column-2" style="width:100%">
+                        <img src="imgs/Fantasy%20Night.jpg" alt="column-3" style="width:100%">
+                      
+                    </div>
+                    <div class="column">
+                        <img src="imgs/Fantasy%20boat.jpg" alt="column-4" style="width:100%">
+                        <img src="imgs/lonely_boy.jpg" alt="column-5" style="width:100%">
+                        <img src="imgs/Flower_girl.jpg" alt="column-6" style="width:100%">
+                    </div>
+                    <div class="column">
+                         <img src="imgs/girl_autumn.jpg" alt="column-7" style="width:100%">
+                        <img src="imgs/Wine.jpg" alt="column-8" style="width:100%">
+                        <img src="imgs/cat_fish.jpg" alt="column-9" style="width:100%">
+
+                       
+                    </div>
+                </div>     
+                </div>
+ 
+            </article><!-- end of article -->
+					 
+					 <!-- Article with top image, header, para, and hiding para -->
+            <article id="article_4">              
+                <h1><a href="#"> Make your own! </a></h1>
+                <p> Now that you've seen some of my own creations, you're ready to venture into the world of photoshop on your own! Let's start slowly with this amazing tutorial video:  </p>
+                
+                <video width="1152" height= "720" controls>
+                <source src = "media/PSD_tutorial.mp4" type = "video/mp4">
+                    
+                </video>
+                
+                <p> And of course if you want to jump in without any tutorial, check out this relaxing audio and set the mood with some rain. The full link for this audio can be found at: </p>
+                
+                <audio controls>
+                <source src = "audio/relaxing-music.mp3" type="audio/mpeg">   </audio>
+                <p> Link for audio: https://youtu.be/Lp6XlsBm_Lw</p>
+            </article><!-- end of article -->
+         </section>
+
+       </div><!-- End content -->
+
+       <footer><!-- Start footer -->
+        <div id = "social"> 
+            <ul>
+               <li><a href="#" class="facebook">Facebook</a></li>
+               <li><a href="#" class="twitter">Twitter</a></li>
+               <li><a href="#" class="youtube">YouTube</a></li>
+               <li><a href="#" class="foursquare">foursquare</a></li>
+            </ul>
+           <p> &copy; 2018 by Essence of Vision </p>
+        </div>
+       </footer><!-- End footer -->
+
+
+   </div><!-- End page wrapper -->
+</body>
+</html>
+<!-- End of html document -->
+

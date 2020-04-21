@@ -1,0 +1,301 @@
+/* setting margin, padding, color for enture space */
+body { 
+   margin:0 auto;
+   padding: 0;
+   color: #333333;
+   height: 100%;
+   min-height: 100%;
+    
+}
+
+/* setting background for page */
+#page_wrapper {
+    background-color:#f5f5f5;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    background-image:url('../imgs/absart-bckg.jpg'); 
+    background-repeat: repeat;
+}
+
+/*********************************** Start header style */
+
+/* header: top element */
+/*inserting logo picture with dimensions */
+#logo{   
+   background-image:url('../imgs/eofv.jpg');
+   background-repeat:no-repeat;
+   background-position:50% 100%;
+   height: 43px;
+   max-width: 43px; /*112px */
+   text-indent:-10000px; /* the freedom of fixed layout :/ */
+   margin:0;
+}
+
+/* placing mav bar at the top */
+nav {
+   width:100%;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   height: 3.9%; /* changed from 20px */
+}
+
+nav ul {
+   list-style-type:none;
+   height: 20px;
+   text-align:center;
+   padding:0;
+   margin:0;
+}
+
+nav li {
+   display: inline;
+   line-height: 130%;
+   padding:0 .3em;
+    align-content: center;
+}
+
+nav li a {
+   color: black;
+   text-decoration:none;
+   font-style: italic;
+}
+
+/* adding headers in a box with slight opacity and padding for all windows*/
+#home{
+    border: 1px solid;
+    box-sizing: border-box;
+    box-shadow: 10px 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(224, 224, 235, 0.6);
+    padding-top: 1%;                                   
+    padding-bottom: 2%;                                 
+}
+
+header{
+        background: #B0C4DE; 
+}
+
+/* setting font style for headers*/
+#home h1, #home h3, #home h4{
+    font-family: Georgia, "Book Antiqua", serif;
+}
+
+
+/* End of header style */
+
+/*********************************** Start content style */
+
+
+/* Start article element style */
+#wrapp_article {
+   clear: both;
+   overflow: hidden;
+   width: 100%;
+}
+
+/* padding for the articles */
+#wrapp_article article {
+   margin: 1% auto;
+   padding: 2%;
+   width: 84%;
+}
+
+/* article text decoration */
+#wrapp_article article a {
+   color: #0066FF;
+   text-decoration: none;
+}
+
+/* article paragraph style */
+#wrapp_article article p {
+   font-size: 87.5%;
+   line-height: 145%;
+}
+
+/* about us img: float to left*/
+#article_1 img:nth-child(even){
+        display: inline;
+        float: left;
+        max-width: 40%;
+}
+
+/* about us img: float to right */
+#article_1 img:nth-child(odd){
+        display: inline;
+        float: right;
+        max-width: 40%;
+}
+
+/* adding transluctent boxes around all articles */
+#article_1, #article_2, #article_3, #article_4{  
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(224, 224, 235, 0.6);
+}
+
+/* creating boxes around label for an organized look  */
+.label {
+    color: black;
+    padding: 2px;
+    border-style: outset;
+    display: inline-block;
+    max-width: 100%;
+    margin-top:3%;
+    font-size:80%;
+
+}
+
+/* ALL labels */
+
+.January, .February, .March, .April, .May, .June, .July {background-color: rgba(210, 242, 240, 0.3);} 
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* End of article element style */
+
+/**** SLIDESHOW ***/
+*.mySlides {display: none}
+img {vertical-align: middle;}
+ 
+/*********************************** Start Social icons style */
+#social {
+   width: 250px;
+   margin: 0 auto;
+}
+
+#social ul {
+   list-style-type:none;
+}
+
+#social li a {
+   display:block;
+   width: 95px;
+   height: 26px;
+   text-indent:-10000px;
+   background-image:url('../imgs/social.png');
+   background-repeat:no-repeat;
+}
+
+/** CSS/image sprities: we will cover it on week 10  **/
+.facebook {background-position:0 0;}
+.twitter {background-position:-98px 0;}
+.youtube {background-position:-196px 0;}
+.foursquare {background-position:-294px 0;}
+
+/* End of Social icons style */
+
+/*********************************** Start footer style */
+footer {
+   clear:both;
+   padding-top:2%;
+   text-align:center;
+   color:#aaa;
+   font-style:italic;
+   font-size:90%;
+    color: black;
+}
+
+/* End of footer icons style */
+
+ /************************ START OF MEDIA QUERY ************************/
+
+ /*************************** MAX WIDTH 480PX **************************/
+
+@media only screen and (max-width: 480px) {
+    
+
+     nav {
+        font-size: 70%;                                     /* to help increase/decrease proportionally to the changing window size */
+         padding-top: 3%;                                   /* setting some space between top and text */
+    }
+
+    #wrapp_article #article_2 img{
+        margin-bottom: 5%;                                  /* adding space after images*/
+    }
+
+    .column{
+        max-width: 33.33%;                                  /* col width for gallery */
+    }
+    
+    #high-level{
+        display:none;                                       /* do not show slideshow*/
+    }
+    
+    video {
+        width: 100%;                                        /* fitting video in space allocated */
+        height: auto;                                       /* fitting video in space allocated */
+    }
+    
+    #social ul{
+        padding-left: 30%;                                  /* */
+    }
+    
+}
+
+/**************** MIN WIDTH 481 PX AND MAX WIDTH 768PX ****************/
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    
+     #low-level{
+        display:none;                                       /* do not show gallery grid */
+    }
+
+    nav {
+        font-size: 90%;                                     /* to help increase/decrease proportionally to the changing window size */
+         padding-top: 2%;                                   /* space between top and text */
+    }
+    
+    #wrapp_article #article_2 img{
+        margin-bottom: 3%;                                  /* adding space after images*/
+    }
+    
+    #article_2 span{
+        font-size: 100%;                                    /* setting font-size */
+        max-width: 48.5%;                                   /* putting the collection into 2 columns */
+        vertical-align: top;                                /* aligning each collection side by side at the top */
+    }
+    
+    video {
+        width: 100%;                                        /* fitting video in space allocated */
+        height: auto;                                       /* fitting video in space allocated */
+    }
+    
+    #social{
+        width: 75%;                                         /* extends width of buttons accross the page */
+    }
+    
+    #social li{
+        display: inline-block;                              /* by setting to inline-block, buttons appear beside each other */ 
+    }
+}
+ 
+   
+ 
+          
+
+    
+
+   

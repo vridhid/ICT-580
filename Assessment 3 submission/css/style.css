@@ -1,0 +1,305 @@
+/*
+** ICT 580 - Assignment 3
+** Resposive simple blog template
+** Styel sheet for index.html
+*/
+body {
+   margin:0 auto;
+   padding: 0;
+   color: #333333;
+   font-family: Georgia,"Times New Roman",sans-serif;
+   height: 100%;
+   min-height: 100%;
+}
+
+#page_wrapper {
+    background-color:#f5f5f5;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+/*********************************** Start header style */
+
+/* header: top element */
+#logo{   
+   background-image:url('../imgs/logo.png');
+   background-repeat:no-repeat;
+   background-position:50% 100%;
+   height:112px;
+   width:100%;
+   max-width: 112px; /*112px */
+   text-indent:-10000px; /* the freedom of fixed layout :/ */
+   margin:0;
+   padding-top: 40px;
+}
+
+
+nav {
+   width:100%;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+   height: 3.9%; /* changed from 20px */
+}
+
+nav ul {
+   list-style-type:none;
+   height: 20px;
+   text-align:center;
+   padding:0;
+   margin:0;
+}
+
+nav li {
+   display: inline;
+   line-height: 130%;
+   padding:0 .3em;
+    align-content: center;
+}
+
+nav li a {
+   color: hsl(216, 100%, 50%);
+   text-decoration:none;
+   font-style: italic;
+}
+/* End of header style */
+
+/*********************************** Start content style */
+
+/* Start top element styel */
+#slide {    
+   text-align:center;
+}
+
+#slide img {
+   max-width: 400px;
+}    
+/* End content's top element styel */
+
+/* Start article element styel */
+#wrapp_article {
+   clear: both;
+   overflow: hidden;
+   width: 100%;
+}
+
+#wrapp_article article {
+   margin: 1% auto;
+   padding: 2%;
+   width: 84%;
+}
+
+#wrapp_article article a {
+   color: #0066FF;
+   text-decoration: none;
+}
+
+#wrapp_article article img {
+   display:block;
+   margin:1% auto;
+}
+
+#recent article h1 {
+   line-height: 130%;
+   margin: 1% 0;
+}
+
+#wrapp_article article p {
+   font-size: 87.5%;
+   line-height: 145%;
+}
+
+#wrapp_article article summary.readMore {
+   color: #999;
+   display:block;
+   margin-top: 1%;
+   margin-bottom: 2%;
+}
+/* End of article element style */
+
+/*********************************** Start Social icons style */
+#social {
+   width: 250px;
+   margin: 0 auto;
+}
+
+#social ul {
+   list-style-type:none;
+}
+
+#social li a {
+   display:block;
+   width: 95px;
+   height: 26px;
+   text-indent:-10000px;
+   background-image:url('../imgs/social.png');
+   background-repeat:no-repeat;
+}
+
+/** CSS/image sprities: we will cover it on week 10  **/
+.facebook {background-position:0 0;}
+.twitter {background-position:-98px 0;}
+.youtube {background-position:-196px 0;}
+.foursquare {background-position:-294px 0;}
+
+/* End of Social icons style */
+
+/*********************************** Start footer style */
+footer {
+   clear:both;
+   padding-top:2%;
+   text-align:center;
+   color:#aaa;
+   font-style:italic;
+   font-size:90%;
+}
+/* End of footer icons style */
+
+/*********************************** End of content style */
+
+ /************************ START OF MEDIA QUERY ************************/
+
+ /*************************** MAX WIDTH 480PX **************************/
+
+@media only screen and (max-width: 480px) {                 /* CSS for less than 481px */
+    nav {
+        font-size: 80%;                                     /* to help increase/decrease proportionally to the changing window size */
+    }                                                       
+    
+    #logo{
+        max-width: 100%;                                    /* at 100% to allow logo to maintain its size*/
+        background-position: 50% 100%;                      /* positioned in the middle of page */
+    }
+    
+    #slide img { 
+        padding-top: 2%;                                    /* space on top based on guess */
+        max-width: 83.3333%;                                /* 400px/480px = 83.33% */
+        float:none;                                         /* float none to ensure its in the middle */
+    } 
+    
+    #article_1 img, #article_2 img, 
+    #article_3 img, #article_4 img {                        /* selecting all images in articles */
+        max-width: 100%;                                    /* setting them to max width so they can adjust accordingly*/
+    }
+    
+    #wrapp_article h1{
+        font-size: 2.5vw;                                   /* article headers allowed to changed according to viewport */
+    }
+    
+    #wrapp_article article p,
+    #wrapp_article article summary.readMore{                /* selecting  articles and hidden paragraphs */      
+        font-size: 2.0vw;                                   /* smaller text set to chage with width size*/
+    }
+    
+    #social{
+        width: 50%;                                         /* width set to 50% so buttons stay in one column  */
+    }
+}
+
+/***************** MAX WIDTH 768PX & MIN WIDTH 481PX *****************/
+
+@media only screen and (min-width: 481px) 
+    and (max-width: 768px) {                                /* CSS for less than 768px and more than 481px */
+
+    #logo{
+        padding-top: 0px;                                   /* eliminates padding already there */
+    }
+   
+    nav {
+        font-size: 85%;                                     /* setting text size from 16px to 13.6px */
+    }
+    
+    nav li{
+        display: grid;                                      /* places links in a column */
+        text-align: left;                                   /* aligns links to the left in their container */
+        padding-left: 120px;                                /* places links beside the logo */
+    }
+    
+    #slide img {
+        max-width: 83.16%;                                  /* allows picture to resize itself based on page width */
+        padding: 5% 5% 0% 5%;                               /* centered so nothing is to left and right of main img */
+    }
+    
+    #wrapp_article article:nth-child(even){                 /* selecting article 2 and 4 */
+        max-width: 40%;                                     /* 40% for 1 column */
+        float: right;                                       /* float to right */
+        padding-right: 5%;                                  /* 10% from padding on both sides */
+    }
+
+    #wrapp_article article:nth-child(odd){                  /* selecting article 1 and 3  */
+        max-width: 40%;                                     /* 40% for 1 column */
+        float: left;                                        /* float to left */
+        padding-left: 5%;                                   /* 10% from padding on both sides */
+    } 
+
+    #wrapp_article article img{ 
+     max-width: 100%;                                       /* 100% allows images to resize according to page width and stay in container */
+    } 
+    
+    #wrapp_article h1{
+        font-size: 2.3vw;                                   /* allows headers to change size with page */                                      
+    }
+    
+    #wrapp_article article p, 
+    #wrapp_article article summary.readMore{                /* selecting  articles and hidden paragraphs */     
+    font-size: 1.6vw;                                       /* allows smaller text to change size with page */
+    }
+    
+    #social li:nth-child(even){                             /* twitter and foursqaure */
+        float:right;                                        /* pushed to right */
+    }       
+    
+    #social li:nth-child(odd){                              /* facebook and youtube */
+        float:left;                                         /* pushed to left */
+    } 
+}
+
+/***************** MAX WIDTH 1024PX & MIN WIDTH 769PX *****************/
+
+@media only screen and (min-width: 769px) 
+and (max-width: 1024px) {                                   /* CSS for less than 1024px and more than 769px */
+
+    #logo{  
+        padding-top: 0px;                                   /* eliminates extra space from beneath */           
+    }
+    
+    nav{
+        font-size: 2vw;                                     /* allows links text to change according to page width */
+    }
+    
+    #slide img {    
+        max-width: 83.16%;                                  /* 400px/481px = 83.16% */
+        padding: 5% 5% 0% 5%;                               /* centering image to avoid other sections overlapping the main image */
+    }
+    
+    #wrapp_article article{
+        max-width: 21%;                                     /* sets coulmn wwidth for each article to 21% so other columns can fit */
+        float: left;                                        /* by floating to left all articles can appear in order from 1 to 4 */
+    }
+    
+    
+    #wrapp_article article img{
+     max-width: 100%;                                       /* all images set to 100% so they can fit inside container and change according to page width */
+    }
+    
+    #wrapp_article h1{
+        font-size: 2.3vw;                                   /* header is allowed to changed according to width of page; same as breakpoint before */
+    }
+    
+    #wrapp_article article p, 
+    #wrapp_article article summary.readMore{                /* all paragraphs are selected */       
+    font-size: 1.6vw;                                       /* smaller text is allowed to changed according to width of page; same as breakpoint before */
+    }
+    
+    #social{
+        width: 75%;                                         /* extends width of buttons accross the page */
+        padding-left: 18%;                                  /* padding helps to center the buttons on page */
+    }
+    
+    #social li{
+        display: inline-block;                              /* by setting to inline-block, buttons appear beside each other */ 
+    }
+}
+

@@ -1,0 +1,20 @@
+@media print{                                           /* Printing media qeury */
+ 
+    #wrapp_article h1{                                  /* selecting headers of articles */                   
+        font-family: Arial, Helvetica, sans-serif;      /* font set to arial */
+    }
+    
+    #wrapp_article article p, 
+    #wrapp_article article summary.readMore{            /* selecting all paragraphs: visible and hidden */    
+    font-family: "Times New Roman", Times, serif;       /* font set to times new roman */
+    }
+    
+    body{                                               /* all body text selected */
+        color: black;                                   /* and set to color: BLACK */
+    }
+       
+    nav,  #slide img, #social {                         /* navigation links, main image and social media links selected */
+        display: none !important;                       /* ordered to hide with HIGH PRIORITY */
+    }   
+    
+}
